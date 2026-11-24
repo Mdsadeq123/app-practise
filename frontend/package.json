@@ -1,0 +1,13 @@
+{
+  "name": "pulsecheck-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint .",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}

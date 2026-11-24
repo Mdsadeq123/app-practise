@@ -1,0 +1,9 @@
+services:
+  backend:
+    image: sadeq123/pulsecheck-backend:latest
+    ports:
+      - "8000:8000"
+  frontend:
+    image: sadeq123/pulsecheck-frontend:latest
+    ports:
+      - "3000:3000"
